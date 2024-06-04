@@ -1,6 +1,6 @@
 import React from 'react'
 import './myprojects.css'
-import IMG1 from '../../assets/img5.jpg'
+import IMG1 from '../../assets/img5.png'
 import IMG2 from '../../assets/img2.png'
 import IMG3 from '../../assets/img3.png'
 import IMG4 from '../../assets/img4.png'
@@ -14,18 +14,18 @@ const Myprojects = () => {
 
       <div className="container portfolio__container">
 
-        <article className='portfolio__item'>
+        <article className='portfolio__item box'>
             <div className="portfolio__item-image">
                 <img src={IMG1} alt="" />
             </div>
             <h3>EvaluationEase</h3>
             <small className='text-light'>Ruby on Rails | Bootstrap | JS</small>
             <div className="portfolio__item-cta">
-              <a href="https://github.com/himani413/FashionGallery" target="_blank" rel='noreferrer' className='btn'>Github</a>
+              <a href="https://github.com/cse3901-sp24-0100/group9-project6" target="_blank" rel='noreferrer' className='btn'>Github</a>
             </div>
               
         </article>
-        <article className='portfolio__item'>
+        <article className='portfolio__item box'>
             <div className="portfolio__item-image">
                 <img src={IMG2} alt="" />
             </div>
@@ -36,7 +36,7 @@ const Myprojects = () => {
             </div>
             
         </article>
-        <article className='portfolio__item'>
+        <article className='portfolio__item box'>
             <div className="portfolio__item-image">
                 <img src={IMG4} alt="" />
             </div>
@@ -48,7 +48,7 @@ const Myprojects = () => {
             </div>
             
         </article>
-        <article className='portfolio__item'>
+        <article className='portfolio__item box'>
             <div className="portfolio__item-image">
                 <img src={IMG3} alt="" />
             </div>
@@ -56,7 +56,7 @@ const Myprojects = () => {
             <small className='text-light'>HTML | CSS | JS | React</small>
             <div className="portfolio__item-cta">
               <a href="https://github.com/Thakshila-Bandara/my-resume" target="_blank" rel='noreferrer' className='btn'>Github</a>
-              <a href="https://thakshila-bandara.github.io/my-resume/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
+              <a href="https://github.com/RoyalTwo/gifthub" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
             </div>
             
         </article>

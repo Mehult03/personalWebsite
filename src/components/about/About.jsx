@@ -23,19 +23,19 @@ const About = () => {
           <div className="about__content">
             <div className="about__cards">
 
-              <article className='about__card'>
+              <article className='about__card box'>
                   <GiGraduateCap className='about__icon'/>
                   <h5>Degree</h5>
                   <small>Bachelor of Science, Major in Computer Science and Engineering, Minor in Mathematics<br /><i>Ohio State University</i></small>
               </article>
 
-              <article className='about__card'>
+              <article className='about__card box'>
                   <BsBookmarkStar className='about__icon'/>
                   <h5>Current GPA</h5>
                   <small>3.67</small>
               </article>
 
-              <article className='about__card'>
+              <article className='about__card box'>
                   <TfiWorld className='about__icon'/>
                   <h5>Domains</h5>
                   <small>

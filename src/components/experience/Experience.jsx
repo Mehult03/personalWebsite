@@ -11,7 +11,7 @@ const Experience = () => {
 
       <div className="container experience__container">
 
-        <div className="experience__frontend">
+        <div className="experience__frontend box">
             <h3>Hyland Software</h3>
             <h3>Software Developer Intern</h3>
 
@@ -42,7 +42,7 @@ Platform using C# and HTML</small>
         </div>
      {/* End of frontend part */}
 
-        <div className="experience__backend">
+        <div className="experience__backend box">
             <h3>Ohio State University</h3>
             <h3>Undergraduate Teaching Assistant</h3>
             <div className="experience__content">
@@ -61,10 +61,8 @@ Platform using C# and HTML</small>
               </article>
             </div>
         </div>
-      </div>
-
-    {/* Skills section */}
-     <div className="experience__backend">
+           {/* Skills section */}
+        <div className="experience__backend box">
             <h3>Skills</h3>
             <div className="experience__content">
 
@@ -112,6 +110,8 @@ Platform using C# and HTML</small>
               </article>
             </div>
         </div>
+      </div>
+     
       
     </section>
   )

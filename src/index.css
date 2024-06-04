@@ -16,9 +16,9 @@
 :root{
 
     --color-bg: #003329;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-bg-variant: #D5E8D4;
+    --color-primary: #82B366;
+    --color-primary-variant: #82B366;
     --color-white: #fff;
     --color-light: rgba(255,  255, 255, 0.6);
 
@@ -136,6 +136,15 @@ img{
     object-fit: cover;
 }
 
+/* Small and large text color when not hovered over */
+.box small, .box h5{
+    color: #000000; /* Dark color */
+}
+
+/* Small and large text color when the entire box is hovered over */
+.box:hover small, .box:hover h5{
+    color: inherit; /* Original color */
+}
 /* Media queries for medium devices(Tablets) */
 
 @media screen and (max-width: 1024px) {
