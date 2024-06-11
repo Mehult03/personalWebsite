@@ -14,7 +14,7 @@ const Contacts = () => {
       <h5>Get in touch</h5>
       <h2>Contact Me</h2>
 
-      <div className="container contact__container">
+      <div className="container contact__container box">
         <div className="contact__options">
 
           <article className='contact__option'>

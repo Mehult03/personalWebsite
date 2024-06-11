@@ -46,8 +46,16 @@
 
     margin-top: 6px;
     color: var(--color-primary);
+    font-size: 1.5rem;
 }
 
+.experience__backend h4 {
+    color: black; /* Set the default color to black */
+}
+
+.experience__backend:hover h4 {
+    color: white; /* Change the color to white on hover */
+}
 /* Media queries for medium devices(Tablets) */
 
 @media screen and (max-width: 1024px) {

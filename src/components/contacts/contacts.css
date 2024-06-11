@@ -42,6 +42,14 @@
     font-size: .8rem;
 }
 
+.contact__option h4 {
+    color: black; /* Set the default color to black */
+}
+
+.contact__option:hover h4 {
+    color: white; /* Change the color to white on hover */
+}
+
 /* Form Part */
 
 form{
