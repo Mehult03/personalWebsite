@@ -12,6 +12,28 @@ const Experience = () => {
       <div className="container experience__container">
 
         <div className="experience__frontend box">
+            <h3>Progressive</h3>
+            <h3>Software Developer Intern</h3>
+
+            <div className="experience__content">
+
+              <article className='experience__details'>
+                <BsFillPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h4>Key Project:</h4>
+                  <small className='text-light'>Developing a standalone command line application using C# and Terraform that automatically performs remote plan configuration on a local environment and is to be used by all Progressive developers company wide</small>
+                </div>
+              </article>
+              <article className='experience__details'>
+                <BsFillPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <small className='text-light'>Configuring a tool using AI to scan through a solution and generate consistent ReadMe.md files at a customized granularity for over 4,000 solutions across many teams with little to no documentation</small>
+                </div>
+              </article>
+            </div>
+        </div>
+
+        <div className="experience__frontend box">
             <h3>Hyland Software</h3>
             <h3>Software Developer Intern</h3>
 
@@ -20,7 +42,7 @@ const Experience = () => {
               <article className='experience__details'>
                 <BsFillPatchCheckFill className='experience__details-icon'/>
                 <div>
-                  <h4>Key Project</h4>
+                  <h4>Key Project:</h4>
                   <small className='text-light'>Developed a full-stack solution for scheduling the expiration of signing keys, preventing the loss of
 access for customers for up to 120 minutes during security events. Built the feature for the Nucleus Cloud
 Platform using C# and HTML</small>
@@ -61,6 +83,9 @@ Platform using C# and HTML</small>
               </article>
             </div>
         </div>
+        
+
+
            {/* Skills section */}
         <div className="experience__backend box">
             <h3>Skills</h3>
