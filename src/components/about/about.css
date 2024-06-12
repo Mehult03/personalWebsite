@@ -18,7 +18,8 @@
 }
 
 .about__me-image{
-
+    max-width: 100%; /* This will make the image responsive */
+    height: auto;
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(-10deg);
