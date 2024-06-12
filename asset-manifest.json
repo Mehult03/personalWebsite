@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cda9f30b.css",
+    "main.js": "/static/js/main.6e2fad1d.js",
+    "static/media/me-new.png": "/static/media/me-new.d793010bebc999e4ec4e.png",
+    "static/media/img4.png": "/static/media/img4.baaafddec3cb1b2c0090.png",
+    "static/media/my-image2.jpg": "/static/media/my-image2.e38e2d87109776974291.jpg",
+    "static/media/Mehul-Thakkar_Resume.pdf": "/static/media/Mehul-Thakkar_Resume.d265f6cc458b12662be9.pdf",
+    "static/media/img2.png": "/static/media/img2.4006efaed57d48955af1.png",
+    "index.html": "/index.html",
+    "main.cda9f30b.css.map": "/static/css/main.cda9f30b.css.map",
+    "main.6e2fad1d.js.map": "/static/js/main.6e2fad1d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cda9f30b.css",
+    "static/js/main.6e2fad1d.js"
+  ]
+}
