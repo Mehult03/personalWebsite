@@ -31,7 +31,7 @@ const Myprojects = () => {
             <small className='text-light'>ReactJs</small>
             <div className="portfolio__item-cta">
               <a href="https://github.com/Mehult03/mehult03.github.io" target="_blank" rel='noreferrer' className='btn'>Github</a>
-              <a href="https://mehult03.github.io/my-portfolio/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
+              <a href="https://mehult03.github.io/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
             </div>
             
         </article>
